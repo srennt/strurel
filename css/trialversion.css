@@ -1,0 +1,1219 @@
+html { 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+
+body { 
+    height: 100%; 
+    background-color: #BDBDBD; 
+    font-family: 'PT Serif', Arial, serif; 
+    font-weight: 400; 
+    font-size: 1.4em; 
+    line-height: 1.5; 
+    margin: 0; 
+    padding: 0;
+}
+
+h3 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+}	
+
+p { 
+    text-align: justify; 
+}
+
+img { 
+    max-width: 100%;
+    height:auto; 
+}
+
+a:link, a:visited, a:hover, a:active { 
+    color: black; 
+    text-decoration: underline;
+}
+
+.container { 
+    margin: 0 auto; 
+    width: 85%; 
+}
+
+.row { 
+    margin-right: -15px; 
+    margin-left: -15px; 
+}
+.row:after { 
+    clear: both; 
+    content: ""; 
+    display: table; 
+}
+[class*="col"] {
+    float: left;
+    -webkit-box-sizing: border-box; /* Safari, Chrome */
+    -moz-box-sizing: border-box; /* Firefox */
+    box-sizing: border-box; /* Opera, Internet Explorer 8+ */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+.col-md-1 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+
+
+.col-md-2 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+
+
+.col-md-4 li { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400;
+}
+
+.col-md-4 img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.col-md-4 p { 
+    text-align: center; 
+}
+
+.col-md-4 h3 { 
+    text-align: center; 
+    font-family: 'PT Serif', Arial, serif; 
+    font-weight: 700 !important; 
+    font-size: 1.6rem; 
+    font-weight: bold !important;
+}
+
+.col-md-5 img {
+ display: block; 
+ margin-left: auto; 
+ margin-right: auto; 
+}
+
+.col-md-5 p { 
+    width:80%; 
+}
+
+.col-md-6 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.col-md-7 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.col-md-8 h4 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+}
+.col-md-8 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.col-xs-11 img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.col-xs-11 p { 
+    text-align: center; 
+}
+
+.col-xs-11 h3 { 
+    text-align: center; 
+    font-family: 'PT Serif', Arial, serif; 
+    font-weight: 700 !important; 
+    font-size: 1.6rem; 
+    font-weight: bold !important;
+}
+
+* {   
+    -moz-box-sizing: border-box;   
+    -webkit-box-sizing: border-box;   
+    box-sizing: border-box;  
+}  
+
+/* HEADER */
+
+#strurelogo { 
+    float:left; 
+}
+
+#strurelogo img { 
+    display: block; 
+    max-width: 100%;
+    height:auto; 
+}
+
+#header {  
+    width:100%;
+    background: black; 
+    color: #FBEFEF; 
+    box-shadow: 5px 5px 5px #888888; 
+    height:16.5%;
+}
+
+.nav { 
+    float: right; 
+    list-style: none; 
+}
+
+#header li { 
+    font-family: 'Ubuntu', Arial, sans-serif !important; 
+    font-weight: 400 !important;  
+    font-size: 0.8em !important; 
+    float:left;
+    display: inline-block;
+    position: relative; 
+    top: 50%; 
+    transform: translateY(65%); 
+}
+
+.nav a {
+    padding: 10px 5px !important; 
+    border: 1px solid transparent !important; 
+}
+
+.nav a:link, .nav a:visited { 
+    color: #FBEFEF !important; 
+    text-decoration: none !important; 
+}
+
+.nav a:active { 
+    background: #000000 !important; 
+    color: #FBEFEF !important; 
+    border-top: 2px solid white !important;
+}
+
+.nav a:hover { 
+    background: #000000 !important; 
+    color: #FBEFEF !important; 
+    border-top: 2px solid white !important;
+}  
+
+/* FOOTER */
+
+#footer { 
+    position: absolute;
+    width:100%;
+    height:15%;
+    background-color: #333333; 
+    color: #FBEFEF; 
+}
+
+#footer li { 
+    font-family: 'Ubuntu', Arial, sans-serif !important; 
+    font-weight: 400 !important; 
+    font-size: 0.9em !important; 
+    float:left;
+    display: inline-block;
+    position: relative; 
+    top: 50%; 
+    transform: translateY(150%); 
+}
+
+.footer-image { 
+    float: left;  
+    position: relative;
+    top: 50%; 
+    transform: translateY(50%);  
+}
+
+/* HOME/INDEX */
+
+#content { 
+    clear:both;
+    width:100%;
+}
+
+
+.container3 { 
+    margin: 0 auto; 
+    height:100%;
+    width: 85%; 
+}
+
+#myCarousel { 
+    width:100%;
+    height:100%;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5); 
+}
+
+#myCarousel .carousel-inner { 
+    width:100%;
+    height:100%; 
+}
+
+#myCarousel .item { 
+    width:100%;
+    height:100%; 
+}
+
+
+
+#myCarousel h3 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+    color: #96c11f; 
+    margin: 10px 10px 10px 10px; 
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7); 
+}
+#myCarousel p { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    font-size: 95%; 
+    color: #fff; 
+    margin: 10px 10px 10px 10px; 
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7); 
+}
+#myCarousel img { 
+    width: 100%; 
+}
+
+.smallprint {
+    position: relative;
+    left: 40px;
+}  
+
+/* STRUREL */
+
+#accordion .panel.panel-default { 
+    margin: 0; 
+    border: 1px solid #BDBDBD; 
+}
+#accordion .panel-heading {
+    background: #e4e4e4;
+    padding: 15px; 
+}
+#accordion .panel-heading .container { 
+    width: 87%; 
+    margin-bottom: -15px;
+}
+#accordion .panel-heading .ui-state-default { 
+    background: #96c11f; 
+    color: #FBEFEF; 
+}
+#accordion .panel-heading:hover, #accordion .panel-heading:active, #accordion .panel-heading:link { 
+    background: #96c11f;
+    color: #FBEFEF;
+}
+#accordion .panel-body { 
+    background-color: #333333;
+    color: #FBEFEF; 
+    margin: 0 -15px;
+}
+#accordion .panel-body .container { 
+    width: 87%; 
+    margin-bottom: -15px;
+}
+#accordion a { 
+    float: right;
+}
+#accordion h5 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+}
+
+/* TRIAL VERSION */
+
+label {  
+    display: inline-block;  
+    cursor: pointer;  
+    position: relative;  
+    padding-left: 25px;  
+    margin-right: 15px;  
+    font-size: 13px;  
+}  
+
+input[type=checkbox] {  
+    display: none;  
+}  
+
+label:before {  
+    content: "";  
+    display: inline-block;  
+    width: 16px;  
+    height: 16px;  
+    margin-right: 10px;  
+    position: absolute;  
+    left: 0;  
+    bottom: 1px;  
+    background-color: #FBEFEF;  
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);  
+}  
+
+.checkbox label:before {  
+    border-radius: 3px;  
+}
+
+input[type=checkbox]:checked + label:before {  
+    content: "\2022";  
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);  
+    font-size: 25px;  
+    color: #A4A4A4;  
+    text-align: center;  
+    line-height: 20px;  
+} 
+
+.containerbutton {
+    width: 100%;
+    text-align: center;
+}
+
+.containerbutton p {
+    text-align: center;
+}
+
+.button1 {
+    padding: 10px 30px;
+    background-color: #96c11f;
+    color: #FBEFEF;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700;
+}
+
+/* SALES */
+
+thead th {
+    width: 14%;
+    text-align: center;
+    background-color: #E6E6E6;
+    padding: 1.5625%;
+    border: 2px solid #BDBDBD;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 400;
+}
+
+tbody th {
+    width: 14%;
+    text-align: center;
+    background-color: white;
+    padding: 1.5625%;
+    border: 2px solid #BDBDBD;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700;
+}
+
+tbody tr:hover th {
+    background-color: #96c11f;
+    color: #FBEFEF;
+}
+
+tbody td {
+    width: 14%;
+    text-align: center;
+    background-color: white;
+    padding: 1.5625%;
+    border: 2px solid #BDBDBD;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 400;
+}
+
+tbody tr:hover td {
+    background-color: #333333;
+    color: #FBEFEF;
+}
+
+.button2 {
+    padding: 10px 70px;
+    background-color: #96c11f;
+    color: #FBEFEF;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700;
+}
+
+.button3 {
+    padding: 10px 119px;
+    background-color: #848484;
+    color: #FBEFEF;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700;
+}
+
+/* EDUCATION */
+
+#accordion2 .panel.panel-default { 
+    margin: 0; 
+    border: 1px solid #BDBDBD;
+}
+#accordion2 .panel-heading { 
+    background: #e4e4e4; 
+    padding: 15px; 
+}
+#accordion2 .panel-heading .container { 
+    width: 87%; 
+    margin-bottom: -15px; 
+}
+#accordion2 .panel-heading .ui-state-default { 
+    background: #96c11f; 
+    color: #FBEFEF;
+}
+#accordion2 .panel-heading:hover, #accordion .panel-heading:active, #accordion .panel-heading:link { 
+    background: #96c11f; 
+    color: #FBEFEF;
+}
+#accordion2 .panel-body { 
+    background-color: #333333; 
+    color: #FBEFEF; 
+    margin: 0 -15px; 
+}
+#accordion2 .panel-body .container { 
+    width: 87%; 
+    margin-bottom: -15px; 
+}
+#accordion2 a { 
+    float: right; 
+}
+#accordion2 h5 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+}
+
+.book { 
+    width: 7%; 
+    float:left;
+}
+
+.reference { 
+    width: 80%; 
+    height: 50px; 
+    text-align:center; 
+    vertical-align: middle; 
+    display: table-cell; 
+}
+
+.buttonsource { 
+    width: 15%; 
+    float:right; 
+}
+
+.button4 {
+    padding: 5px 15px;
+    background-color: #424242;
+    color: #FBEFEF;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 400;
+}
+
+.line { 
+    width: 100%; 
+    height: 60px; 
+    text-align:center; 
+}
+
+/* CONTACT */
+
+.box1 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.box1 p { 
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+}
+
+.box2 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.box2 p { 
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+}
+
+.box3 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.box3 p { 
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+}
+
+.box4 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+.box4 p { 
+    margin-left: 16%;
+    margin-right: 16%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+}
+
+.smallprint2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+}
+
+.boxchild {
+    display:block;
+    position:relative;
+    top:10%;
+    left:0;
+}
+
+.contactbutton p {
+    text-align: center;
+}
+
+@media screen and (min-width:990px) {
+
+
+/* ABOUT US */
+
+.cont3 { 
+    height:170%;
+}
+
+.contabout1 { 
+    width: 100%; 
+    height: 23%;
+}
+
+.greycont { 
+    width: 100%; 
+    background-color: #E6E6E6; 
+    height: 23%; 
+}
+
+.contabout2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height: 22%;
+}
+
+.straub {
+    position: relative;
+    bottom: 22%;
+}
+.iason {
+    position: relative;
+    bottom: 22%;
+}
+.betz {
+    position: relative;
+    bottom: 22%;
+} 
+
+}
+
+
+@media screen and (max-width:989px) {
+
+
+/* ABOUT US */
+
+.cont3 { 
+    height:255%;
+}
+
+.contabout1 { 
+    width: 100%; 
+    height: 32%;
+}
+
+.greycont { 
+    width: 100%; 
+    background-color: #E6E6E6; 
+    height: 20%; 
+}
+
+.contabout2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height: 13%;
+}
+
+.straub {
+    position: relative;
+    bottom: 28%;
+}
+
+.iason {
+    position: relative;
+    bottom: 28%;
+    left:10%;
+}
+.betz {
+    position: relative;
+    bottom: 28%;
+    left:20%;
+} 
+
+}
+
+@media screen and (max-width:889px) {
+
+.iason {
+    position: relative;
+    bottom: 28%;
+    left:5%;
+}
+
+.betz {
+    position: relative;
+    bottom: 28%;
+    left:10%;
+}     
+
+}
+
+@media screen and (min-width:769px) {
+
+.footerheader { 
+    width: 83%; 
+    margin:0 auto;
+}  
+
+/* INDEX */
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+    height:80%;
+}    
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 77%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}    
+
+/* CONTACT */
+
+.cont2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height:110%;
+}
+
+
+.boxes {
+     position: relative;
+     height:33%;
+     width:100%;
+}
+
+.box1 { 
+    position: relative;
+    top: 0;
+    left:0;
+    width:23.5%;
+    height:100%;
+    background-color: #96c11f;
+}
+
+.box2 { 
+    position: relative;
+    top: -100%;
+    left: 25%;
+    width: 23.5%;
+    height: 100%;
+    background-color: #333333;    
+}
+
+.box3 { 
+    position: relative;
+    top: -200%;
+    left: 50%;
+    width:23.5%;
+    height:100%;
+    background-color: #96c11f;  
+}
+
+.box4 { 
+    position: relative;
+    top: -300%;
+    left: 75%;
+    width:23.5%;
+    height:100%;
+    background-color: #333333;
+}
+
+.contactbutton {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top:-280%;
+    left:0;
+}
+
+}
+
+@media screen and (max-width:1110px) {
+
+/* INDEX */
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 74%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}    
+
+}
+
+@media screen and (max-width:950px) {
+
+/* INDEX */    
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+    height:75%;
+}    
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 72%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}  
+}
+
+@media screen and (max-width:860px) { 
+
+/* INDEX */
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+    height:71%;
+} 
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 68%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}    
+
+}
+
+@media screen and (max-width:796px) {
+
+.footerheader { 
+    width: 95%; 
+    margin:0 auto;
+}   
+
+}
+
+@media screen and (max-width:768px) {
+
+.footerheader { 
+    width: 95%; 
+    margin:0 auto;
+}  
+
+/* INDEX */
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+    height:68%;
+} 
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 63%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}     
+    
+/* ABOUT US */  
+
+.cont3 { 
+    height:285%;
+}
+
+.greycont { 
+    width: 100%; 
+    background-color: #E6E6E6; 
+    height: 22%; 
+}
+
+.contabout1 { 
+    width: 100%; 
+    height: 30%;
+}
+
+.contabout2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height: 13%;
+}
+
+.straub {
+    position: relative;
+    bottom: 28%;
+    left:-10%;
+}
+
+.iason {
+    position: relative;
+    bottom: 28%;
+    left:-6%;
+}
+
+.betz {
+    position: relative;
+    bottom: 28%;
+    left:-2%;
+} 
+
+/* CONTACT */
+
+.cont2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height:160%;
+}
+
+.boxes {
+     position: relative;
+     height:50%;
+     width:100%;
+}
+
+.box1 { 
+    position: relative;
+    top: 0;
+    left:0;
+    width:45%;
+    height:36%;
+    background-color: #96c11f;
+}
+
+.box2 { 
+    position: relative;
+    top: -36%;
+    left: 50%;
+    width: 45%;
+    height: 36%;
+    background-color: #333333;    
+}
+
+.box3 { 
+    position: relative;
+    top: -33%;
+    left: 0;
+    width:45%;
+    height:36%;
+    background-color: #96c11f;  
+}
+
+.box4 { 
+    position: relative;
+    top: -69%;
+    left: 50%;
+    width:45%;
+    height:36%;
+    background-color: #333333;
+}
+
+.contactbutton {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top:-50%;
+    left:0;
+}
+
+}
+
+@media screen and (max-width:745px) {
+
+.cont3 { 
+    height:305%;
+}
+
+.straub {
+    position: relative;
+    bottom: 28%;
+    left:-5%;
+}
+
+.iason {
+    position: relative;
+    bottom: 28%;
+    left:15%;
+}
+
+.betz {
+    position: relative;
+    bottom: 28%;
+    left:30%;
+} 
+
+}    
+
+
+@media screen and (max-width:704px) {
+
+/* INDEX */
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 59%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}     
+
+}
+
+@media screen and (max-width:694px) {
+
+#strurelogo {
+   display:none; 
+}    
+
+}
+
+@media screen and (max-width:600px) { 
+
+/* INDEX */
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+    height:61%;
+} 
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 50%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}    
+
+}
+
+@media screen and (max-width:545px) {
+
+.cont3 { 
+    height:315%;
+}
+
+.straub {
+    position: relative;
+    bottom: 28%;
+    left:20%;
+}
+
+.iason {
+    position: relative;
+    bottom: 28%;
+    left:-10%;
+}
+
+.betz {
+    position: relative;
+    bottom: 28%;
+    left:15%;
+} 
+
+}  
+
+@media screen and (max-width:524px) { 
+
+/* INDEX */
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 44%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}    
+
+}
+
+@media screen and (min-width:481px) { 
+
+.conthidden {
+    display:none;
+}
+
+}
+
+@media screen and (max-width:480px) {  
+
+.footer-image {
+    display:none;
+}  
+
+/* INDEX */
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 40%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}  
+
+/* EDUCATION */
+    
+#accordion2 {
+    display:none;
+}
+
+/* ABOUT US */
+
+.cont3 { 
+    height:345%;
+}
+
+.greycont { 
+    width: 100%; 
+    background-color: #E6E6E6; 
+    height: 15%; 
+}
+
+.contabout1 { 
+    width: 100%; 
+    height: 26%;
+}
+
+.contabout2 { 
+    display:none;
+}
+
+/* CONTACT */
+
+.cont2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height:210%;
+}
+
+.boxes {
+     position: relative;
+     height:47%;
+     width:100%;
+}
+
+.box1 { 
+    position: relative;
+    top: -5%;
+    left:0;
+    width:100%;
+    height:27%;
+    background-color: #96c11f;
+}
+
+.box2 { 
+    position: relative;
+    top: -2%;
+    left: 0;
+    width: 100%;
+    height: 27%;
+    background-color: #333333;    
+}
+
+.box3 { 
+    position: relative;
+    top: 1%;
+    left: 0;
+    width:100%;
+    height:27%;
+    background-color: #96c11f;  
+}
+
+.box4 { 
+    position: relative;
+    top: 4%;
+    left: 0;
+    width:100%;
+    height:27%;
+    background-color: #333333;
+}
+
+.contactbutton {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top:10%;
+    left:0;
+}
+
+}
+
+@media screen and (max-width:413px) {  
+
+/* INDEX */
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+} 
+
+#myCarousel .item img {
+    display: none;
+}
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 20%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}  
+
+}
+

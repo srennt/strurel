@@ -1,0 +1,2104 @@
+html { 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+
+body { 
+    height: 100%; 
+    background-color: #cccccc; 
+    font-family: 'PT Serif', Arial, serif; 
+    font-weight: 400; 
+    font-size: 1.45em; 
+    line-height: 1.5; 
+    margin: 0; 
+    padding: 0;
+}
+
+h3 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+}	
+
+p { 
+    text-align: justify; 
+}
+
+img { 
+    max-width: 100%;
+    height:auto; 
+}
+
+a:link, a:visited, a:hover, a:active { 
+    color: black; 
+    text-decoration: underline;
+}
+
+.container { 
+    margin: 0 auto; 
+    width: 85%; 
+}
+
+
+
+.row { 
+    margin-right: -15px; 
+    margin-left: -15px; 
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.row:after { 
+    clear: both; 
+    content: ""; 
+    display: table; 
+}
+
+[class*="col"] {
+    float: left;
+    -webkit-box-sizing: border-box; /* Safari, Chrome */
+    -moz-box-sizing: border-box; /* Firefox */
+    box-sizing: border-box; /* Opera, Internet Explorer 8+ */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.col-md-1 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.col-md-2 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.col-md-2 p { 
+    text-align: center; 
+}
+
+.col-md-2 h5 { 
+    text-align: center; 
+    font-size: 0.9em;
+}
+
+.col-md-2 h3 { 
+    text-align: center; 
+    font-family: 'PT Serif', Arial, serif; 
+    font-weight: 700 !important; 
+    font-size: 1.6rem; 
+    font-weight: bold !important;
+}
+
+.col-md-3 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+
+.col-md-3 a { 
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+}
+
+.col-md-3 p { 
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+}
+
+.col-md-4 li { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400;
+}
+
+.col-md-4 img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 30px;
+}
+
+.col-md-4 p { 
+    text-align: center; 
+}
+
+.col-md-4 h5 { 
+    text-align: center; 
+    font-size: 0.9em;
+}
+
+.col-md-4 h3 { 
+    text-align: center; 
+    font-family: 'PT Serif', Arial, serif; 
+    font-weight: 700 !important; 
+    font-size: 1.6rem; 
+    font-weight: bold !important;
+}
+
+.col-md-5 img {
+ display: block; 
+ margin-left: auto; 
+ margin-right: auto; 
+}
+
+.col-md-5 p { 
+    width:80%; 
+}
+
+.col-md-6 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+.col-md-6 p { 
+    margin: 30px 0 20px 0;
+}
+
+.col-md-7 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.col-md-7 p { 
+    margin: 30px 0 20px 0;
+}
+
+.col-md-8 p {
+    padding-top:40px;
+    padding-bottom:20px;
+}
+
+.col-md-8 h4 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+    text-align: left; 
+    margin-top: 40px;
+}
+.col-md-8 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.col-xs-11 img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.col-xs-11 p { 
+    text-align: center; 
+}
+
+.col-xs-11 h5 { 
+    text-align: center; 
+    font-size: 0.9em;
+}
+
+.col-xs-11 h3 { 
+    text-align: center; 
+    font-family: 'PT Serif', Arial, serif; 
+    font-weight: 700 !important; 
+    font-size: 1.6rem; 
+    font-weight: bold !important;
+}
+
+* {   
+    -moz-box-sizing: border-box;   
+    -webkit-box-sizing: border-box;   
+    box-sizing: border-box;  
+}  
+
+/* HEADER */
+
+#strurelogo { 
+    float:left; 
+}
+
+.dropdown { 
+    position: relative; 
+    left:300px;
+    bottom:60px;
+} 
+
+.dropdown-menu {
+    min-width: 90px !important;
+    padding: 0 !important;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+} 
+
+.dropdown a { 
+    font-family: 'Ubuntu', Arial, sans-serif !important; 
+    font-weight: 400 !important;  
+    font-size: 0.8em !important; 
+    background: #000000 !important; 
+    text-decoration: none !important; 
+    color: #FBEFEF !important;
+    padding: 3px 10px !important;
+}
+
+.dropdown a:hover { 
+    color: #96c11f !important; 
+}  
+
+.dropdown-toggle {
+    font-family: 'Ubuntu', Arial, sans-serif !important; 
+    font-weight: 400 !important;  
+    font-size: 0.8em !important; 
+    background: #000000 !important; 
+    text-decoration: none !important; 
+    color: #FBEFEF !important; 
+}
+
+#strurelogo img { 
+    display: block; 
+    max-width: 100%;
+    height:auto; 
+}
+
+#header {  
+    width:100%;
+    background: #000000; 
+    color: #FBEFEF; 
+    box-shadow: 5px 5px 5px #888888; 
+    height:95px;
+}
+
+#header .nav li { 
+    float:left;
+    display: inline-block;
+    position: relative; 
+    top: 50%; 
+    transform: translateY(65%); 
+    font-family: 'Ubuntu', Arial, sans-serif !important; 
+    font-weight: 400 !important;  
+    font-size: 0.9em !important; 
+}
+
+.nav { 
+    float: right; 
+    list-style: none; 
+}
+
+.nav a {
+    padding: 10px 15px !important; 
+    border: 1px solid transparent !important; 
+}
+
+.nav a:link, .nav a:visited { 
+    color: #FBEFEF !important; 
+    text-decoration: none !important; 
+}
+
+.nav a:active { 
+    background: #000000 !important; 
+    color: #FBEFEF !important; 
+    border-top: 2px solid white !important;
+}
+
+.nav a:hover { 
+    background: #000000 !important; 
+    color: #FBEFEF !important; 
+    border-top: 2px solid white !important;
+}  
+
+/* FOOTER */
+
+
+
+.footer-image { 
+    float: left;  
+    line-height: 95px;
+}
+
+.footer-image img {
+    margin-right: 20px;
+} 
+
+.imprint p {
+    font-family: 'Ubuntu', Arial, sans-serif !important; 
+    font-weight: 400 !important; 
+    font-size: 0.8em !important; 
+    float: right;
+    margin-top: 35px;
+}
+
+.imprint a {
+    color: white; 
+    text-decoration: none;
+}
+
+/* HOME/INDEX */
+
+#content { 
+    clear:both;
+    width:100%;
+}
+
+
+.container3 { 
+    margin: 0 auto; 
+    height:100%;
+    width: 85%; 
+}
+
+#myCarousel { 
+    box-shadow: 12px 0 15px -4px rgba(0, 0, 0, 0.5), -12px 0 8px -4px rgba(0, 0, 0, 0.5);
+    width:100%;
+    height:100%;
+}
+
+#myCarousel .carousel-inner { 
+    width:100%;
+    height:100%; 
+}
+
+#myCarousel .item { 
+    width:100%;
+    height:100%; 
+}
+
+#myCarousel h3 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+    color: #96c11f; 
+    margin: 10px 10px 10px 10px; 
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7); 
+}
+
+#myCarousel p { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    font-size: 87%; 
+    color: #fff; 
+    margin: 10px 10px 10px 10px; 
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7); 
+}
+
+#myCarousel img { 
+    width: 100%; 
+}
+
+.smallprint {
+    margin-top: 20px;
+    position: relative;
+    left: 40px;
+}  
+
+.smallprint p {
+    font-size: 0.9em;
+}  
+
+.triallink {
+    margin: 23px 0 20px 0;
+    text-align: center;
+}
+
+.btn-lnk3 {
+    padding: 12px 18%;
+    text-decoration: none !important;
+    color: #FBEFEF !important;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700 !important;
+    font-size: 1.2em;
+    background-color: hsl(75.9,72.3%,43.9%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#96c11f", endColorstr="#96c11f");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#96c11f), to(#96c11f));
+    background-image: -moz-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -ms-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #96c11f), color-stop(100%, #96c11f));
+    background-image: -webkit-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -o-linear-gradient(top, #96c11f, #96c11f);
+    background-image: linear-gradient(#96c11f, #96c11f);
+    border-color: grey;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+    margin:15px 0 10px 0;
+}
+
+
+
+/* STRUREL */
+
+#accordion {
+    margin-top: 20px;
+}
+
+#accordion .panel.panel-default { 
+    margin: 0; 
+    border: 1px solid #BDBDBD; 
+}
+#accordion .panel-heading {
+    background: #e4e4e4;
+    padding: 15px; 
+}
+#accordion .panel-heading .container { 
+    width: 87%; 
+    margin-bottom: -15px;
+}
+#accordion .panel-heading .ui-state-default { 
+    background: #96c11f; 
+    color: #FBEFEF; 
+}
+#accordion .panel-heading:hover, #accordion .panel-heading:active, #accordion .panel-heading:link { 
+    background: #96c11f;
+    color: #FBEFEF;
+}
+#accordion .panel-body { 
+    background-color: #333333;
+    color: #FBEFEF; 
+    margin: 0 -15px;
+}
+#accordion .panel-body .container { 
+    width: 87%; 
+    margin-bottom: -15px;
+}
+#accordion a { 
+    float: right;
+}
+#accordion h5 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+}
+
+#accordion p {
+    font-size: 0.95em;
+}
+
+.readmore2 {
+    font-size: 0.85em;
+    font-family: 'Ubuntu', Arial, sans-serif !important; 
+}
+
+/* ABOUT US 2 */
+
+.grey { 
+    background-color: #E6E6E6;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.faces {
+    position: relative;
+    bottom: 100px;
+}
+
+
+/* SALES */
+
+.containersales { 
+    margin: 0 auto; 
+    width: 85%; 
+}
+
+.containersales p { 
+    margin:20px 0 20px 0; 
+}
+
+thead th {
+    width: 14%;
+    text-align: center;
+    background-color: #E6E6E6;
+    padding: 1.5625%;
+    border: 2px solid #BDBDBD;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 400;
+    font-size:90%;
+}
+
+tbody th {
+    width: 14%;
+    text-align: center;
+    background-color: white;
+    padding: 1.5625%;
+    border: 2px solid #BDBDBD;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700;
+    font-size:90%;
+}
+
+tbody tr:hover th {
+    background-color: #96c11f;
+    color: #FBEFEF;
+}
+
+tbody td {
+    width: 14%;
+    text-align: center;
+    background-color: white;
+    padding: 1.5625%;
+    border: 2px solid #BDBDBD;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 400;
+    font-size:90%;
+}
+
+tbody tr:hover td {
+    background-color: #333333;
+    color: #FBEFEF;
+}
+
+.button2 {
+    padding: 10px 70px;
+    background-color: #96c11f;
+    color: #FBEFEF;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700;
+}
+
+.button3 {
+    padding: 10px 119px;
+    background-color: #848484;
+    color: #FBEFEF;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700;
+}
+
+.containerbutton {
+    width: 100%;
+    text-align: center;
+}
+
+.containerbutton p {
+    text-align: center;
+    left: 50px;
+}
+
+.btn-lnk1 {
+    padding: 10px 70px;
+    text-decoration: none !important;
+    color: #FBEFEF !important;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700 !important;
+    background-color: hsl(75.9,72.3%,43.9%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#96c11f", endColorstr="#96c11f");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#96c11f), to(#96c11f));
+    background-image: -moz-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -ms-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #96c11f), color-stop(100%, #96c11f));
+    background-image: -webkit-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -o-linear-gradient(top, #96c11f, #96c11f);
+    background-image: linear-gradient(#96c11f, #96c11f);
+    border-color: grey;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+    margin:25px 0 30px 0;
+}
+
+.btn-lnk2 {
+    padding: 10px 119px;
+    text-decoration: none !important;
+    color: #FBEFEF !important;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700 !important;
+    background-color: hsl(0,0%,51.8%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#848484", endColorstr="#848484");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#848484), to(#848484));
+    background-image: -moz-linear-gradient(top, #848484, #848484);
+    background-image: -ms-linear-gradient(top, #848484, #848484);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #848484), color-stop(100%, #848484));
+    background-image: -webkit-linear-gradient(top, #848484, #848484);
+    background-image: -o-linear-gradient(top, #848484, #848484);
+    background-image: linear-gradient(#848484, #848484);
+    border-color: grey;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+    margin:15px 0 70px 0;
+}
+
+/* EDUCATION */
+
+#accordion2 {
+    margin-top: 60px;
+}
+
+#accordion2 .panel.panel-default { 
+    margin: 0; 
+    border: 1px solid #BDBDBD;
+}
+#accordion2 .panel-heading { 
+    background: #e4e4e4; 
+    padding: 15px; 
+}
+#accordion2 .panel-heading .container { 
+    width: 87%; 
+    margin-bottom: -15px; 
+}
+#accordion2 .panel-heading .ui-state-default { 
+    background: #96c11f; 
+    color: #FBEFEF;
+}
+#accordion2 .panel-heading:hover, #accordion .panel-heading:active, #accordion .panel-heading:link { 
+    background: #96c11f; 
+    color: #FBEFEF;
+}
+#accordion2 .panel-body { 
+    background-color: #333333; 
+    color: #FBEFEF; 
+    margin: 0 -15px; 
+}
+#accordion2 .panel-body .container { 
+    width: 87%; 
+    margin-bottom: -15px; 
+}
+#accordion2 a { 
+    float: right; 
+}
+#accordion2 h5 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+}
+
+#accordion2 p {
+    font-size: 0.95em;
+}
+
+.book { 
+    width: 7%; 
+    float:left;
+}
+
+.reference { 
+    width: 80%; 
+    height: 50px; 
+    text-align:center; 
+    vertical-align: middle; 
+    display: table-cell; 
+}
+
+.buttonsource { 
+    width: 15%; 
+    float:right; 
+}
+
+.button4 {
+    padding: 5px 15px;
+    background-color: #424242;
+    color: #FBEFEF;
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400;
+}
+
+.line { 
+    width: 100%; 
+    height: 60px; 
+    text-align:center; 
+}
+
+.viewall2 {
+    font-size: 0.85em;
+    font-family: 'Ubuntu', Arial, sans-serif; 
+}
+
+.btn-lnk4 {
+  padding: 5px 10px;
+  text-decoration: none !important;
+  color: #FBEFEF !important;
+  font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700 !important;
+  background-color: hsl(0, 0%, 26%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#424242", endColorstr="#424242");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#424242), to(#424242));
+  background-image: -moz-linear-gradient(top, #424242, #424242);
+  background-image: -ms-linear-gradient(top, #424242, #424242);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #424242), color-stop(100%, #424242));
+  background-image: -webkit-linear-gradient(top, #424242, #424242);
+  background-image: -o-linear-gradient(top, #424242, #424242);
+  background-image: linear-gradient(#424242, #424242);
+  border-color: #424242 #424242 hsl(0, 0%, 26%);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+  -webkit-font-smoothing: antialiased;
+  border-radius:0 !important;
+    -webkit-border-radius:0 !important;
+    -moz-border-radius:0 !important;
+}
+
+.btn-lnk4:hover {
+  background-color: hsl(75.9,72.3%,43.9%) !important; 
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#96c11f", endColorstr="#96c11f");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#96c11f), to(#96c11f));
+  background-image: -moz-linear-gradient(top, #96c11f, #96c11f);
+  background-image: -ms-linear-gradient(top, #96c11f, #96c11f);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #96c11f), color-stop(100%, #96c11f));
+  background-image: -webkit-linear-gradient(top, #96c11f, #96c11f);
+  background-image: -o-linear-gradient(top, #96c11f, #96c11f);
+  background-image: linear-gradient(#96c11f, #96c11f);
+  border-color: #424242 #424242 hsl(0, 0%, 26%);
+}
+
+
+
+/* CONTACT */
+
+.box1 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.box1 p { 
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.box2 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.box2 p { 
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+.box3 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.box3 p { 
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+.box4 img { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 20px;
+}
+
+.smallprint2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    font-size:0.9em;
+}
+
+.boxchild {
+    display:block;
+    position:relative;
+    top:15%;
+    left:0;
+}
+
+.box_a {
+    background-color: #96c11f;
+}
+
+.box_a p {
+    padding-bottom: 30px;
+}
+
+.box_b {
+    background-color: #333333  
+}
+
+.box_b p {
+    padding-bottom: 58px;
+}
+
+.box_c {
+    background-color: #96c11f;
+}
+
+.box_c p {
+    padding-bottom: 55px;
+}
+
+.box_d {
+    background-color: #333333  
+}
+
+.box_d p {
+    padding-bottom: 59px;
+}
+
+.contactbutton p {
+    text-align: center;
+}
+
+.buttoncontact {
+    padding: 10px 30px;
+    background-color: #96c11f;
+    color: #FBEFEF;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700;
+}
+
+/* TRIAL VERSION DROPDOWN, HEADER & FOOTER */
+
+.dropdown2 { 
+    position: relative; 
+    left:250px;
+    bottom:60px;
+} 
+
+
+.dropdown2 a { 
+    font-family: 'Ubuntu', Arial, sans-serif !important; 
+    font-weight: 400 !important;  
+    font-size: 0.8em !important; 
+    background: #000000 !important; 
+    text-decoration: none !important; 
+    color: #FBEFEF !important;
+    padding: 3px 10px !important;
+}
+
+.dropdown2 a:hover { 
+    color: #96c11f !important; 
+} 
+
+
+#headertv {  
+    width:100%;
+    background: #000000; 
+    color: #FBEFEF; 
+    box-shadow: 5px 5px 5px #888888; 
+    height:95px;
+}
+
+#headertv .nav li { 
+    float:left;
+    display: inline-block;
+    position: relative; 
+    top: 50%; 
+    transform: translateY(65%); 
+    font-family: 'Ubuntu', Arial, sans-serif !important; 
+    font-weight: 400 !important;  
+    font-size: 0.85em !important; 
+}
+
+#footertv { 
+    position: absolute;
+    width:100%;
+    height:95px;
+    background-color: #333333; 
+    color: #FBEFEF; 
+    margin-top: 100px;
+}
+
+
+/* Styling of the Message Bubble for orange error messages */
+
+.tipr_content {
+     font-size: 0.5rem;
+     color: red;
+     background-color: #fbe0a7;
+     padding: 1px 3px;
+}
+
+.tipr_container_title, .tipr_container_firstname, .tipr_container_lastname, .tipr_container_institution, .tipr_container_email, .tipr_container_email2
+{
+     display:none;
+     position: absolute;
+     margin-top: 8px;
+     z-index: 1000;
+     left:8%;
+     top:30px;
+}
+
+.tipr_point 
+{
+   position: relative;
+   background: #fbe0a7;
+   border: 1px solid transparent;
+}
+
+.tipr_point:after, .tipr_point:before
+{
+  position: absolute;
+  pointer-events: none;
+  border: solid transparent;
+  bottom: 100%;
+  content: "";
+  height: 0;
+  width: 0;
+}
+
+.tipr_point:after
+{
+  border-bottom-color: #fbe0a7;
+  border-width: 8px;
+  left: 20%;
+  margin-left: -8px;
+}
+
+.tipr_point:before 
+{
+  border-bottom-color: #fbe0a7;
+  border-width: 9px;
+  left: 20%;
+  margin-left: -9px;
+}
+
+/* IMPRINT */
+
+.containerimprint { 
+    margin:25px 0 25px 0;
+}
+
+.containerimprint p { 
+    margin: 25px 0 25px 0;
+    font-weight: 400;
+    color: black;
+}
+
+.containerimprint h4 { 
+    margin: 25px 0 25px 0;
+    font-weight: 700;
+    font-size: 1.1em; 
+}
+
+.containerimprint h5 { 
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.2em; 
+    color: #4c524c;
+    line-height: 24px;
+}
+
+/* FORM SUMBISSION */
+
+.containersubmission { 
+    margin:50px 0 260px 0;
+} 
+
+/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
+/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
+/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
+/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
+
+@media screen and (min-width:1130px) {
+
+/* INDEX */
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+    height: 80%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px -4px 3px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px -4px 3px rgba(50, 50, 50, 0.75);
+} 
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 75%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}    
+
+}
+
+@media screen and (min-width:1100px) {
+
+.box4 a { 
+    margin-left: 26%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width:1099px) {
+
+.box4 a { 
+    margin-left: 22%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width:1129px) {
+
+/* INDEX */
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+    height: 80%;
+    margin-bottom: 20px;
+} 
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 72%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}    
+
+}
+
+
+
+
+@media screen and (min-width:1044px) {
+
+.dropdown {
+   display:none; 
+}
+
+.dropdown2 { 
+    display:none;
+}     
+
+}
+
+
+@media screen and (max-width:1043px) {
+
+#header .nav {
+   display:none; 
+}  
+
+#headertv .nav {
+   display:none; 
+}     
+
+.dropdown { 
+    position: relative; 
+    left:620px;
+    bottom:60px;
+} 
+
+.dropdown2 { 
+    position: relative; 
+    left:570px;
+    bottom:60px;
+} 
+
+#myCarousel .carousel-inner { 
+    top:-27px;
+    width:100%;
+    height:100%; 
+}
+
+}
+
+
+@media screen and (min-width:1045px) {
+
+/* ABOUT US */
+
+.cont3 { 
+    height:153%;
+}
+
+.contabout1 { 
+    width: 100%; 
+    height: 26%;
+}
+
+.greycont { 
+    width: 100%; 
+    background-color: #E6E6E6; 
+    height: 25%; 
+}
+
+.contabout2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height: 22%;
+}
+
+.straub {
+    position: relative;
+    bottom: 45%;
+}
+.iason {
+    position: relative;
+    bottom: 45%;
+}
+.betz {
+    position: relative;
+    bottom: 45%;
+} 
+
+}
+
+
+@media screen and (max-width:1044px) {
+
+
+/* ABOUT US */
+
+.cont3 { 
+    height:255%;
+}
+
+.contabout1 { 
+    width: 100%; 
+    height: 47%;
+}
+
+.greycont { 
+    width: 100%; 
+    background-color: #E6E6E6; 
+    height: 20%; 
+}
+
+.contabout2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height: 13%;
+}
+
+.straub {
+    position: relative;
+    bottom: 45%;
+}
+
+.iason {
+    position: relative;
+    bottom: 45%;
+    left:10%;
+}
+.betz {
+    position: relative;
+    bottom: 45%;
+    left:20%;
+} 
+
+}
+
+@media screen and (min-width:1025px) {
+
+    #footer { 
+    width:100%;
+    height:95px;
+    background-color: #333333; 
+    color: #FBEFEF; 
+    margin-top: 100px;
+    margin-bottom: -95px;
+}
+
+}
+
+@media screen and (max-width:1024px) {
+
+    #footer { 
+    width:100%;
+    height:95px;
+    background-color: #333333; 
+    color: #FBEFEF; 
+    margin-top: 200px;
+    margin-bottom: -95px;
+}
+
+}
+
+    
+
+@media screen and (max-width:900px) {
+
+.box4 a { 
+    margin-left: 15%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}
+
+
+@media screen and (max-width:950px) {
+
+/* INDEX */    
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+    height:75%;
+    margin-bottom: 20px;
+}    
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 70%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+} 
+
+}
+
+@media screen and (max-width:760px) {
+
+.box4 a { 
+    margin-left: 14%;
+    margin-right: 16%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}
+
+
+@media screen and (max-width:860px) { 
+
+/* INDEX */
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+    height:71%;
+    margin-bottom: 20px;
+} 
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 65%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}    
+
+}
+
+
+
+@media screen and (max-width:796px) {
+
+.footerheader { 
+    width: 95%; 
+    margin:0 auto;
+}   
+
+}
+
+
+@media screen and (min-width:769px) {
+
+.footerheader { 
+    width: 83%; 
+    margin:0 auto;
+}  
+
+  
+
+/* CONTACT */
+
+.cont2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height:100%;
+    padding-top: 50px;
+}
+
+
+.boxes {
+     position: relative;
+     height:190px;
+     width:100%;
+     margin-top: 20px;
+}
+
+.box1 { 
+    position: relative;
+    top: 0;
+    left:0;
+    width:23.5%;
+    height:190px;
+    background-color: #96c11f;
+}
+
+.box2 { 
+    position: relative;
+    top: -100%;
+    left: 25%;
+    width: 23.5%;
+    height: 190px;
+    background-color: #333333;    
+}
+
+.box3 { 
+    position: relative;
+    top: -200%;
+    left: 50%;
+    width:23.5%;
+    height:190px;
+    background-color: #96c11f;  
+}
+
+.box4 { 
+    position: relative;
+    top: -300%;
+    left: 75%;
+    width:23.5%;
+    height:190px;
+    background-color: #333333;
+}
+
+.contactbutton {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top:-280%;
+    left:0;
+}
+
+}
+
+
+@media screen and (max-width:768px) {
+
+.footerheader { 
+    width: 95%; 
+    margin:0 auto;
+}  
+
+/* INDEX */
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+    height:68%;
+    margin-bottom: 20px;
+} 
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 60%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}     
+    
+/* ABOUT US */  
+
+
+.cont3 { 
+    height:255%;
+}
+
+.contabout1 { 
+    width: 100%; 
+    height: 46%;
+}
+
+.greycont { 
+    width: 100%; 
+    background-color: #E6E6E6; 
+    height: 20%; 
+}
+
+.contabout2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height: 13%;
+}
+
+.straub {
+    position: relative;
+    bottom: 45%;
+    left:-10%;
+}
+
+.iason {
+    position: relative;
+    bottom: 45%;
+    left:-6%;
+}
+
+.betz {
+    position: relative;
+    bottom: 45%;
+    left:-2%;
+} 
+
+
+
+/* CONTACT */
+
+.cont2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height:160%;
+}
+
+.boxes {
+     position: relative;
+     height:50%;
+     width:100%;
+     margin-top: 20px;
+}
+
+.box1 { 
+    position: relative;
+    top: 0;
+    left:0;
+    width: 45%;
+    height: 36%;
+    background-color: #96c11f;
+}
+
+.box2 { 
+    position: relative;
+    top: -36%;
+    left: 50%;
+    width: 45%;
+    height: 36%;
+    background-color: #333333;    
+}
+
+.box3 { 
+    position: relative;
+    top: -33%;
+    left: 0;
+    width: 45%;
+    height: 36%;
+    background-color: #96c11f;  
+}
+
+.box4 { 
+    position: relative;
+    top: -69%;
+    left: 50%;
+    width: 45%;
+    height: 36%;
+    background-color: #333333;
+}
+
+.contactbutton {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top:-50%;
+    left:0;
+}
+
+}
+
+@media screen and (max-width:768px) {
+
+.box4 a { 
+    margin-left: 28%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width:745px) {
+
+.dropdown { 
+    position: relative; 
+    left:500px;
+    bottom:60px;
+} 
+
+.dropdown2 { 
+    position: relative; 
+    left:450px;
+    bottom:60px;
+} 
+
+}
+
+@media screen and (max-width:680px) {
+
+.cont3 { 
+    height:305%;
+}
+
+.straub {
+    position: relative;
+    bottom: 35%;
+    left:-5%;
+}
+
+.iason {
+    position: relative;
+    bottom: 35%;
+    left:5%;
+}
+
+.betz {
+    position: relative;
+    bottom: 35%;
+    left:15%;
+} 
+
+}  
+
+@media screen and (max-width:672px) {
+
+.box4 a { 
+    margin-left: 24%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}  
+
+
+@media screen and (max-width:714px) {
+
+/* INDEX */
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 58%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}     
+
+}
+
+@media screen and (max-width:625px) { 
+
+.dropdown { 
+    position: relative; 
+    left:400px;
+    bottom:60px;
+} 
+
+.dropdown2 { 
+    position: relative; 
+    left:350px;
+    bottom:60px;
+} 
+
+}
+
+@media screen and (max-width:600px) { 
+
+/* INDEX */
+
+#greycontainer { 
+    width: 100%; 
+    background: #333333; 
+    height:61%;
+    margin-bottom: 20px;
+} 
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 45%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}    
+
+}
+
+@media screen and (max-width:570px) {
+
+.box4 a { 
+    margin-left: 21%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}  
+
+ 
+
+@media screen and (max-width:531px) { 
+
+/* INDEX */
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 40%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}    
+
+}
+
+@media screen and (max-width:520px) {  
+
+/* Header */
+
+.dropdown { 
+    position: relative; 
+    left:225px;
+    bottom:60px;
+} 
+
+.dropdown2 { 
+    position: relative; 
+    left:155px;
+    bottom:60px;
+} 
+
+.dropdown a { 
+    font-family: 'Ubuntu', Arial, sans-serif !important; 
+    font-weight: 400 !important;  
+    font-size: 0.7em !important; 
+    background: #000000 !important; 
+    text-decoration: none !important; 
+    color: #FBEFEF !important;
+    padding: 3px 10px !important;
+}
+
+.dropdown2 a { 
+    font-family: 'Ubuntu', Arial, sans-serif !important; 
+    font-weight: 400 !important;  
+    font-size: 0.7em !important; 
+    background: #000000 !important; 
+    text-decoration: none !important; 
+    color: #FBEFEF !important;
+    padding: 3px 10px !important;
+}
+
+}
+
+@media screen and (max-width:485px) {
+
+.cont3 { 
+    height:315%;
+}
+
+.straub {
+    position: relative;
+    bottom: 28%;
+    left:20%;
+}
+
+.iason {
+    position: relative;
+    bottom: 28%;
+    left:-10%;
+}
+
+.betz {
+    position: relative;
+    bottom: 28%;
+    left:15%;
+} 
+
+} 
+
+
+@media screen and (min-width:481px) { 
+
+.conthidden {
+    display:none;
+}
+
+.btn-lnk1 {
+    padding: 10px 70px;
+    text-decoration: none !important;
+    color: #FBEFEF !important;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700 !important;
+    background-color: hsl(75.9,72.3%,43.9%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#96c11f", endColorstr="#96c11f");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#96c11f), to(#96c11f));
+    background-image: -moz-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -ms-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #96c11f), color-stop(100%, #96c11f));
+    background-image: -webkit-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -o-linear-gradient(top, #96c11f, #96c11f);
+    background-image: linear-gradient(#96c11f, #96c11f);
+    border-color: grey;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-lnk2 {
+    padding: 10px 119px;
+    text-decoration: none !important;
+    color: #FBEFEF !important;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700 !important;
+    background-color: hsl(0,0%,51.8%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#848484", endColorstr="#848484");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#848484), to(#848484));
+    background-image: -moz-linear-gradient(top, #848484, #848484);
+    background-image: -ms-linear-gradient(top, #848484, #848484);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #848484), color-stop(100%, #848484));
+    background-image: -webkit-linear-gradient(top, #848484, #848484);
+    background-image: -o-linear-gradient(top, #848484, #848484);
+    background-image: linear-gradient(#848484, #848484);
+    border-color: grey;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+}
+
+}
+
+@media screen and (max-width:480px) {  
+
+.footer-image {
+    display:none;
+}  
+
+/* INDEX */
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 34%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}  
+
+/* EDUCATION */
+    
+#accordion2 {
+    display:none;
+}
+
+/* ABOUT US */
+
+.cont3 { 
+    height:350%;
+}
+
+.greycont { 
+    width: 100%; 
+    background-color: #E6E6E6; 
+    height: 17%; 
+}
+
+.contabout1 { 
+    width: 100%; 
+    height: 35%;
+}
+
+.contabout2 { 
+    display:none;
+}
+
+/* CONTACT */
+
+.cont2 { 
+    margin: 0 auto; 
+    width: 85%; 
+    height:210%;
+}
+
+.boxes {
+     position: relative;
+     height:47%;
+     width:100%;
+     margin-top: 20px;
+}
+
+.box1 { 
+    position: relative;
+    top: -5%;
+    left:0;
+    width:100%;
+    height:40%;
+    background-color: #96c11f;
+}
+
+.box2 { 
+    position: relative;
+    top: -2%;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #333333;    
+}
+
+.box3 { 
+    position: relative;
+    top: 1%;
+    left: 0;
+    width:100%;
+    height:40%;
+    background-color: #96c11f;  
+}
+
+.box4 { 
+    position: relative;
+    top: 4%;
+    left: 0;
+    width:100%;
+    height:40%;
+    background-color: #333333;
+}
+
+.contactbutton {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top:10%;
+    left:0;
+}
+
+
+.btn-lnk1 {
+    padding: 10px 10px;
+    text-decoration: none !important;
+    color: #FBEFEF !important;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700 !important;
+    background-color: hsl(75.9,72.3%,43.9%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#96c11f", endColorstr="#96c11f");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#96c11f), to(#96c11f));
+    background-image: -moz-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -ms-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #96c11f), color-stop(100%, #96c11f));
+    background-image: -webkit-linear-gradient(top, #96c11f, #96c11f);
+    background-image: -o-linear-gradient(top, #96c11f, #96c11f);
+    background-image: linear-gradient(#96c11f, #96c11f);
+    border-color: grey;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-lnk2 {
+    padding: 10px 60px;
+    text-decoration: none !important;
+    color: #FBEFEF !important;
+    font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700 !important;
+    background-color: hsl(0,0%,51.8%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#848484", endColorstr="#848484");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#848484), to(#848484));
+    background-image: -moz-linear-gradient(top, #848484, #848484);
+    background-image: -ms-linear-gradient(top, #848484, #848484);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #848484), color-stop(100%, #848484));
+    background-image: -webkit-linear-gradient(top, #848484, #848484);
+    background-image: -o-linear-gradient(top, #848484, #848484);
+    background-image: linear-gradient(#848484, #848484);
+    border-color: grey;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+}
+
+}
+
+@media screen and (max-width:480px) {
+
+.box4 a { 
+    margin-left: 35%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width:421px) {  
+
+/* INDEX */
+
+#greycontainer { 
+    height: 77%;
+    width: 100%; 
+    background: #333333; 
+    margin-bottom: 20px;
+} 
+
+#myCarousel .item img {
+    display: none;
+}
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 20%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}  
+
+}
+
+@media screen and (max-width:420px) {
+
+.box4 a { 
+    margin-left: 31%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width:381px) { 
+
+.containersales { 
+    margin: 0 auto; 
+    width: 95%; 
+}
+
+}
+
+@media screen and (max-width:365px) {
+
+.cont3 { 
+    height:380%;
+}
+
+}
+
+@media screen and (max-width:350px) {
+
+.box4 a { 
+    margin-left: 27%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width:348px) {  
+
+/* INDEX */
+
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 3%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}  
+
+}
+
+
+
+@media screen and (max-width:306px) {  
+
+/* INDEX */
+
+
+#myCarousel .container { 
+    left: 0; 
+    position: absolute; 
+    top: 1%; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+}  
+
+}
+
+@media screen and (max-width:280px) {
+
+.box4 a { 
+    margin-left: 24%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width:240px) {
+
+.box4 a { 
+    margin-left: 20%;
+    background-color: #424242;
+    text-decoration: underline;
+    text-align: center; 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    color: white;
+    margin-top: 20px;
+}
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) { 
+
+#greycontainer {
+    display: none;
+}
+
+}
+
+
+
+
+
+
