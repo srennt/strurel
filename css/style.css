@@ -519,43 +519,54 @@ a:link, a:visited, a:hover, a:active {
 }
 
 thead th {
-    width: 14%;
+    width: 10%;
     text-align: center;
     background-color: #E6E6E6;
-    padding: 1.5625%;
+    padding-top: 1.5625%;
+    padding-bottom: 1.5625%;
     border: 2px solid #BDBDBD;
     font-family: 'Ubuntu', Arial, sans-serif; font-weight: 400;
     font-size:90%;
 }
 
 tbody th {
-    width: 14%;
+    width: 10%;
     text-align: center;
-    background-color: white;
-    padding: 1.5625%;
+    background-color: #333333;
+    color: white;
+    padding-top: 1.5625%;
+    padding-bottom: 1.5625%;
     border: 2px solid #BDBDBD;
     font-family: 'Ubuntu', Arial, sans-serif; font-weight: 700;
-    font-size:90%;
-}
-
-tbody tr:hover th {
-    background-color: #96c11f;
-    color: #FBEFEF;
+    font-size:95%;
 }
 
 tbody td {
-    width: 14%;
+    width: 10%;
     text-align: center;
     background-color: white;
-    padding: 1.5625%;
+    padding-top: 1.5625%;
+    padding-bottom: 1.5625%;
     border: 2px solid #BDBDBD;
     font-family: 'Ubuntu', Arial, sans-serif; font-weight: 400;
     font-size:90%;
 }
 
-tbody tr:hover td {
-    background-color: #333333;
-    color: #FBEFEF;
+tbody td a {
+    text-decoration: none !important;
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+tbody td a:hover {
+    color: white;
+    font-size: 95%;
+}
+
+.tdclass:hover {
+    color: white;
+    background-color: #96c11f;
 }
 
 .button2 {
@@ -579,7 +590,7 @@ tbody tr:hover td {
 
 .containerbutton p {
     text-align: center;
-    left: 50px;
+    margin-top: 40px;
 }
 
 .btn-lnk1 {
@@ -1051,7 +1062,7 @@ tbody tr:hover td {
 
 @media screen and (max-width:1024px) {
 
-    #footer { 
+    #footer {   
     width:100%;
     height:95px;
     background-color: #333333; 
