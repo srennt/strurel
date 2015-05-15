@@ -523,8 +523,13 @@ a:link, a:visited, a:hover, a:active {
     margin:20px 0 20px 0; 
 }
 
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
 thead th {
-    width: 10%;
+    width: 25%;
     text-align: center;
     background-color: #E6E6E6;
     padding-top: 1.5625%;
@@ -535,7 +540,7 @@ thead th {
 }
 
 tbody th {
-    width: 10%;
+    width:25%;
     text-align: center;
     background-color: #333333;
     color: white;
@@ -547,7 +552,7 @@ tbody th {
 }
 
 tbody td {
-    width: 10%;
+    width:25%;
     text-align: center;
     background-color: white;
     padding-top: 1.5625%;
@@ -1080,6 +1085,87 @@ tbody td a:hover {
 
 
 
+
+
+@media screen and (max-width:1024px) {
+
+    #footerxl {   
+    width:100%;
+    height:95px;
+    background-color: #333333; 
+    color: #FBEFEF; 
+    margin-top: 200px;
+    margin-bottom: -95px;
+}
+
+}
+
+@media screen and (min-width:1025px) {
+
+    #footerxl { 
+    width:100%;
+    height:95px;
+    background-color: #333333; 
+    color: #FBEFEF; 
+    margin-top: 100px;
+    margin-bottom: -95px;
+}
+
+}
+
+@media screen and (min-width:1367px) {
+
+    #footerxl { 
+    width:100%;
+    height:95px;
+    background-color: #333333; 
+    color: #FBEFEF; 
+    margin-top: 250px;
+    margin-bottom: -95px;
+}
+
+}
+
+@media screen and (min-width:1601px) {
+
+    #footerxl { 
+    width:100%;
+    height:95px;
+    background-color: #333333; 
+    color: #FBEFEF; 
+    margin-top: 400px;
+    margin-bottom: -95px;
+}
+
+}
+
+@media screen and (min-width:1681px) {
+
+    #footerxl { 
+    width:100%;
+    height:95px;
+    background-color: #333333; 
+    color: #FBEFEF; 
+    margin-top: 450px;
+    margin-bottom: -95px;
+}
+
+}
+
+@media screen and (min-width:1800px) {
+
+    #footerxl { 
+    width:100%;
+    height:95px;
+    background-color: #333333; 
+    color: #FBEFEF; 
+    margin-top: 600px;
+    margin-bottom: -95px;
+}
+
+}
+
+
 @media screen and (max-width:950px) {
 
 /* INDEX */    
@@ -1140,7 +1226,7 @@ tbody td a:hover {
 @media screen and (min-width:769px) {
 
 .footerheader { 
-    width: 83%; 
+    width: 85%; 
     margin:0 auto;
 }  
 
