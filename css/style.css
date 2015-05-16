@@ -1055,6 +1055,10 @@ tbody td a:hover {
     height:100%; 
 }
 
+#mycarousel .carousel-inner { 
+    top:-27px; 
+}
+
 }
 
 @media screen and (min-width:1025px) {
@@ -1605,7 +1609,79 @@ tbody td a:hover {
     display: none;
 }
 
+
 }
+
+.graycontainer {
+    background-color: #333333;
+    width: 100%;
+}
+
+.container10 { 
+    margin: 0 auto; 
+    height:100%;
+    width: 78%; 
+}
+
+.container10 img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+}
+
+#mycarousel .item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mycarousel h3 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+    color: #96c11f; 
+    text-align: left;
+    padding-left:15px; 
+    padding-right:15px;
+}
+
+#mycarousel p { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    font-size: 87%; 
+    color: #fff; 
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7); 
+    padding-left:15px; 
+    padding-right:15px;
+}
+
+#mycarousel .carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: inherit;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
+}
+
+.carousel-control .glyphicon-chevron-right {
+  right: -35%;
+}
+
+.carousel-control .glyphicon-chevron-left {
+  left: -35%;
+}
+
+@media screen and (max-width:533px) { 
+
+.graycontainer {
+    display: none;
+}
+
+}
+
+
 
 
 
