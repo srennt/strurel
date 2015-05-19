@@ -53,14 +53,15 @@
 	</div><!-- .footerheader --> 
 </div><!-- #header --> 
 
+<div class="clear">
+
+</div>
+
 <div class="graycontainer">
 
     <div class="container10">  
 
     <div id="mycarousel" class="carousel slide">
-
-          
-
 
         <div class="carousel-inner">
 
@@ -68,7 +69,7 @@
                 <img src="images3/bannernew.jpg" alt="">
                 <div class="carousel-caption">
                     <h3>Structural reliability analysis software</h3>
-                    <p>The new versions of our main software package for component reliability analysis COMREL 9 and our package for system reliability SYSREL 10 run in 64bit machines and allow coupling with external programs through a comprehensible interface.</p>
+                    <p>The new versions of our main software package for component reliability analysis COMREL 9 and our package for system reliability SYSREL 10 run under 64bit Windows and allow coupling with external programs through a comprehensible interface.</p>
                 </div>
             </div>
             <div class="item">
@@ -106,6 +107,54 @@
     </div>
 
 </div>	
+
+<div class="graycontainer2"> 
+
+    <div id="mycarousel2" class="carousel slide">
+
+        <div class="carousel-inner">
+
+            <div class="item active">
+                <img src="images3/bannernew.jpg" alt="">
+                <div class="carousel-caption">
+                    <h3>Structural reliability analysis software</h3>
+                    <p>The new versions of our main software package for component reliability analysis COMREL 9 and our package for system reliability SYSREL 10 run under 64bit Windows and allow coupling with external programs through a comprehensible interface.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/home-main-pic-electrical-tower.jpg" alt="">
+                <div class="carousel-caption">
+                    <h3>Reliability assessment of transmission towers</h3>
+                    <p>Due to material deficiencies and changes in safety requirements, existing overhead transmission towers must undergo a verification of their reliability. STRUREL powers the software P242 for FE based reliability analysis of these towers, which was developed in collaboration with major German electrical infrastructure companies. Due to its user-friendly and effective design, the software is used efficiently to verify 1000s of transmission towers.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/home-main-pic-space-station.jpg" alt="">
+                <div class="carousel-caption">
+                    <h3>Reliability based design of components aerospace structures</h3>
+                    <p>STRUREL supported the design and manufacturing of critical components of aerospace structures, including the high-strength steel booster case of Ariane 5 for which an exhaustive reliability assessment was performed. The reliability updating capabilities of STRUREL allowed optimizing the expensive proof-tests that are part of the manufacturing process. </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/home-main-pic-suspension-bridge.jpg" alt="">
+                <div class="carousel-caption">
+                    <h3>System reliability analysis of cable bridges</h3>
+                    <p>STRUREL was central in verifying and demonstrating the reliability of the Storebæltsbroen cable bridge. The effect of cable failures on the reliability of the bridge was investigated with the unique system reliability tools incorporated in STRUREL. These allow to efficiently assess systems with large numbers of failure modes.</p>
+                </div><!-- .container -->
+            </div>
+
+        </div>
+         <a class="left carousel-control" href="#mycarousel2" role="button" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left"></span>
+         </a>
+
+         <a class="right carousel-control" href="#mycarousel2" role="button" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right"></span>
+         </a>
+
+     </div>
+
+</div>  
     
 
 <div class="container10">
@@ -153,6 +202,11 @@
 <script>
     $(document).ready(function() {
     $('#mycarousel').each(function(){
+        $(this).carousel({
+            interval: false
+        });
+    });
+    $('#mycarousel2').each(function(){
         $(this).carousel({
             interval: false
         });

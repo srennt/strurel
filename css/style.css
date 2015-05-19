@@ -1014,7 +1014,7 @@ tbody td a:hover {
 
 
 
-@media screen and (min-width:1044px) {
+@media screen and (min-width:1024px) {
 
 .dropdown {
    display:none; 
@@ -1027,7 +1027,7 @@ tbody td a:hover {
 }
 
 
-@media screen and (max-width:1043px) {
+@media screen and (max-width:1023px) {
 
 #header .nav {
    display:none; 
@@ -1609,7 +1609,6 @@ tbody td a:hover {
     display: none;
 }
 
-
 }
 
 .graycontainer {
@@ -1619,7 +1618,6 @@ tbody td a:hover {
 
 .container10 { 
     margin: 0 auto; 
-    height:100%;
     width: 78%; 
 }
 
@@ -1665,20 +1663,83 @@ tbody td a:hover {
     background: rgba(0, 0, 0, 0.8); 
 }
 
-.carousel-control .glyphicon-chevron-right {
+#mycarousel .carousel-control .glyphicon-chevron-right {
   right: -35%;
 }
 
-.carousel-control .glyphicon-chevron-left {
+#mycarousel .carousel-control .glyphicon-chevron-left {
   left: -35%;
 }
 
-@media screen and (max-width:533px) { 
+@media screen and (min-width:1024px) { 
+
+.graycontainer2 {
+    display: none;
+}
+
+}
+
+@media screen and (max-width:730px) { 
+
+.graycontainer2 {
+    display: none;
+}
+
+}
+
+@media screen and (max-width:1023px) { 
 
 .graycontainer {
     display: none;
 }
 
+}
+
+.graycontainer2 {
+    clear:both;
+    width: 100%;
+}
+
+.graycontainer2 img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+}
+
+#mycarousel2 .item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mycarousel2 h3 { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 700; 
+    color: #96c11f; 
+    text-align: left;
+    padding-left:15px; 
+    padding-right:15px;
+}
+
+#mycarousel2 p { 
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-weight: 400; 
+    font-size: 87%; 
+    color: #fff; 
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7); 
+    padding-left:15px; 
+    padding-right:15px;
+}
+
+#mycarousel2 .carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: inherit;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.8); 
 }
 
 
