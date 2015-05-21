@@ -667,11 +667,12 @@ tbody td a:hover {
     background: #96c11f; 
     color: #FBEFEF;
 }
-#accordion2 .panel-heading:hover, #accordion .panel-heading:active, #accordion .panel-heading:link { 
+#accordion2 .panel-heading:hover, #accordion2 .panel-heading:active, #accordion2 .panel-heading:link { 
     background: #96c11f; 
     color: #FBEFEF;
 }
 #accordion2 .panel-body { 
+    width: inherit;
     background-color: #333333; 
     color: #FBEFEF; 
     margin: 0 -15px; 
@@ -703,11 +704,12 @@ tbody td a:hover {
     text-align:center; 
     vertical-align: middle; 
     display: table-cell; 
+    float: left;
 }
 
 .buttonsource { 
-    width: 15%; 
-    float:right; 
+    width: 13%; 
+    float: left; 
 }
 
 .button4 {
@@ -1740,6 +1742,10 @@ tbody td a:hover {
     padding-bottom: 0;
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.8); 
+}
+
+.clear {
+    clear:both;
 }
 
 
