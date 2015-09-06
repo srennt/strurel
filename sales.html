@@ -139,6 +139,126 @@
   
 </div><!-- .containersales -->
 
+<div class="panel-group" id="accordion3">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <div class="container">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-target="#collapseOne" href="#collapseOne">
+            <span class="readmore2">READ MORE</span>
+          </a>
+          <h5>FEATURES OF STRUREL MODULES</h5>
+        </h4><!-- .panel-title -->
+      </div><!-- .container-->
+    </div><!-- .panel-heading -->
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="container">
+
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>COMREL<sup>(1)</sup></th>
+                <th>COMREL STUDENT</th>
+                <th>COMREL DEMO</th>
+                <th>SYSREL<sup>(1)</sup></th>
+                <th>SYSREL STUDENT</th>
+                <th>SYSREL DEMO</th>
+              </tr>
+            </thead>
+          <tbody>
+            <tr>
+              <th>max no. of names<sup>(2)</sup></th>
+              <td>100</td>
+              <td>11</td>
+              <td>6</td>
+              <td>100</td>
+              <td>14</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <th>max no. of components<sup>(3)</sup></th>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td>100</td>
+              <td>10</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th>max no. of cut-sets<sup>(3)</sup></th>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td>100</td>
+              <td>8</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th>interface to Matlab</th>
+              <td>yes</td>
+              <td>yes</td>
+              <td>yes, limited</td>
+              <td>yes</td>
+              <td>yes</td>
+              <td>yes, limited</td>
+            </tr>
+            <tr>
+              <th>interface to DLLs</th>
+              <td>yes</td>
+              <td>no</td>
+              <td>yes, limited</td>
+              <td>yes</td>
+              <td>no</td>
+              <td>yes, limited</td>
+            </tr>
+            <tr>
+              <th>print and plots</th>
+              <td>full</td>
+              <td>full</td>
+              <td>restricted</td>
+              <td>full</td>
+              <td>full</td>
+              <td>restricted</td>
+            </tr>
+            <tr>
+              <th>multiple runs</th>
+              <td>yes</td>
+              <td>no</td>
+              <td>yes</td>
+              <td>yes</td>
+              <td>no</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <th>batch runs</th>
+              <td>yes</td>
+              <td>no</td>
+              <td>no</td>
+              <td>yes</td>
+              <td>no</td>
+              <td>no</td>
+            </tr>
+            <tr>
+              <th>time limit</th>
+              <td>no</td>
+              <td>1 year</td>
+              <td>no</td>
+              <td>no</td>
+              <td>1 year</td>
+              <td>no</td>
+            </tr>
+          </tbody>
+        </table>
+          <h5>Notes</h5>
+          <p>(1) full denotes the full version both for commercial or academic use <br>(2) names means the sum of the no. of Basic Variables and the no. of Constant Parameters in the model  <br>(3) applies to Sysrel only </p>
+        </div>
+      </div><!-- .panel-body -->
+    </div><!-- #collapseOne -->
+  </div><!-- .panel .panel-default -->
+</div><!--  .panel-group -->
+
 <div id="footer">
   <div class="footerheader">
     <div class="footer-image">
@@ -153,6 +273,22 @@
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(function () {
+  $('.readmore2').click(function(){
+    var $this = $(this);
+    $this.toggleClass('readmore2');
+    if($this.hasClass('readmore2')){
+      $this.text('READ MORE');     
+    } else {
+      $this.text('CLOSE');
+      $this.css("font-family","Ubuntu', Arial, sans-serif");
+      $this.css("font-size","1.00em");
+    }
+  });
+});
+</script>
 
 
 </body>
